@@ -27,12 +27,37 @@
     text-align: center;
     float: left;
     margin-left: 20px;
+    list-style-type: none;
 }
 
+.button a {
+    text-decoration: none;
+    color: black;
+    height: 100%;
+    display: inline-block;
+    width: 100%;
+}
 
+#pagina1 {
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+}
+
+#pagina2 {
+    width: 100%;
+    height: 100vh;
+    background-color: green;
+}
+
+#pagina3 {
+    width: 100%;
+    height: 100vh;
+    background-color: yellow;
+}
 
 
 /* ***** debug ***** */
-.debug {
+/* .debug {
     background-color: tomato;
-}
+} */
