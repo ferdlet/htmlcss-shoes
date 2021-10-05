@@ -44,35 +44,34 @@ body {
     width: 100%;
 }
 
-#pagina1 {
+ .container-pagina {
     width: 100%;
     height: 100vh;
-    background-color: red;
     position: relative;
+ }
+
+#pagina1 {
+    background-color: red;
 }
 
 #pagina2 {
-    width: 100%;
-    height: 100vh;
     background-color: green;
-    position: relative;
 }
 
 #pagina3 {
-    width: 100%;
-    height: 100vh;
     background-color: yellow;
-    position: relative;
+}
+
+.container-pagina h2 {
+    text-transform: uppercase;
 }
 
 #pagina1 h2, #pagina2 h2 {
     color: yellow;
-    text-transform: uppercase;
 }
 
 #pagina3 h2 {
     color: green;
-    text-transform: uppercase;
 }
 
 .container-item {
