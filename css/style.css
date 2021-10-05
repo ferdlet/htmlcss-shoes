@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Merriweather', Arial, serif;
+}
+
 .clearfix::after {
     content: '';
     clear: both;
@@ -15,6 +19,7 @@
     position: fixed;
     right: 20px;
     top: 20px;
+    z-index: 9990;
 }
 
 .button {
@@ -43,22 +48,56 @@
     width: 100%;
     height: 100vh;
     background-color: red;
+    position: relative;
 }
 
 #pagina2 {
     width: 100%;
     height: 100vh;
     background-color: green;
+    position: relative;
 }
 
 #pagina3 {
     width: 100%;
     height: 100vh;
     background-color: yellow;
+    position: relative;
+}
+
+#pagina1 h2, #pagina2 h2 {
+    color: yellow;
+    text-transform: uppercase;
+}
+
+#pagina3 h2 {
+    color: green;
+    text-transform: uppercase;
+}
+
+.container-item {
+    width: 45%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container-item img {
+    width: 100%;
+}
+
+.container-item h2 {
+    text-align: center;
+    font-size: 50px;
+    word-spacing: 12px;
+    font-weight: 900;
 }
 
 
+
 /* ***** debug ***** */
-/* .debug {
+ .debug {
     background-color: tomato;
-} */
+}
